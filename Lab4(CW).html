@@ -1,0 +1,126 @@
+<!---Create a "Podcast Introduction Page" for a beginner podcast series. The page should include:
+   A title and description in the header.
+   A semantic layout using <header>, <main>, and <footer>.
+   An embedded YouTube video of the host's welcome video.
+  An audio player for the first episode of the podcast.
+  A short note about how the podcast content will be stored (just a placeholder paragraph mentioning storage).
+Follow proper HTML5 style guide rules (like indentation, lowercase tags, attribute quotation, etc.).
+Include a host profile section using the <aside> tag, placed beside the main podcast content.
+Use a <figure> tag to display the host's image and a caption under it.
+Goals:
+   Practice semantic structure
+   Embed media content
+   Follow HTML style guidelines--->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>
+    Podcast Intro
+  </title>
+  <style>
+    aside {
+      width: 28%;
+      padding-left: 15px;
+      margin-left: 15px;
+      float: right;
+      font-style: italic;
+      background-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <center>
+      <img
+        src="https://yt3.googleusercontent.com/7d_eAJ3gRLb4WezhC0w2QJ2PgDgzIcBW1t4pMSgqmF1Jg-_6UCR1uf73KNMVfo3Z3FdtTDgL-A=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+        alt="Film Logo" style="width:1500px; height:300px;">
+      <br>
+      <hr>
+      <h3><i>Sharan Nair, Shyamolie Parikh, Fahim Rasheed, Aryan Nair</i></h3>
+    </center>
+    <hr>
+    <p style="font-size: 18px;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+      friends who had 1 meaningful conversation and decided to start “this is not a podcast”.
+      We talk about our personal lives, events taking place across the world and basically provide our unsolicited
+      opinion
+      on anything and everything. If you are lonely, want to fill in the silences, kill time, learn about the most
+      random things,
+      this podcast is for you.</p>
+    <p style="font-size: 18px;">Hosted by Sharan Nair and three friends who once had a surprisingly deep
+      conversation—and, in a moment of overconfidence and chaos, decided the world needed to hear more of it. That one
+      chat spiraled into This Is Not A Podcast: a space where four fairly average people talk about absolutely anything,
+      everything, and occasionally... nothing at all.
+      We’re not journalists, philosophers, or life coaches—we’re just four friends navigating adulthood, culture, the
+      internet, and our own lives one tangent at a time. Expect raw conversations, wild detours, questionable takes,
+      personal confessions, and the kind of banter that feels like you're right there with us on the group call.
+      Some episodes are funny. Some are surprisingly deep. Some might leave you wondering why you're still listening—but
+      hey, isn’t that what the best group chats feel like?
+      So if you:
+    <ul style="font-size: 18px;">
+      <li>need a break from the serious stuff,</li>
+      <li>want to feel like you're in a room with friends,</li>
+      <li>love hearing different perspectives (or just random trivia no one asked for),</li>
+      <li>or simply want to fill the silence while doing dishes or pretending to work...</li>
+    </ul>
+    </p>
+    <p style="font-size: 18px;">Then congrats—you’ve found your people.
+      This might not be a podcast in the traditional sense, but it’s definitely something.</p>
+    <br>
+  </header>
+ <aside>
+    <h2><u>Host profile sectio</u>n</h2>
+    
+    <center>
+      <figure>
+          <img src="Sharan.jpg" alt="Sharan Nair" width="150">
+          <figcaption>Sharan Nair</figcaption>
+    </figure>
+    </center>
+    <h4>
+       Sharan Nair, a Kochi-based content creator, is known for everything from slice-of-life
+      videos to hilarious challenges. His videos with his grandmother, especially the
+      "Grandma Reacts" series with Netflix, brought him into the spotlight. His creative
+      and humorous style has led to collaborations with brands like Pizza Hut and Netflix India.</h4>
+  </aside> 
+
+   <main>
+  <figure >
+  <iframe data-testid="embed-iframe" style="border-radius:12px"
+    src="https://open.spotify.com/embed/show/5ij3IcNdMPMF2DbRTXNOTu/video?utm_source=generator" width="624" height="351"
+    frameBorder="0" allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+  </iframe>
+  <br>
+    <figcaption>Hello dears. On this episode of This Is not a Podcast,we discuss the Ambani wedding,our <br>
+    beginnings on social media,baby names,nd more!We're joined by Gayu_inkb as our guest. Enjoy!</figcaption>
+    </figure>
+    <br>
+
+    <h2>First Episode</h2>
+    <p style="font-size: 18px;">Click play button to play our very first episode</p>
+
+    <audio controls>
+      <source src="Podcast.mp3" type="audio/mp3">
+    </audio>
+
+      <h2>Podcast Storage</h2>
+      <p style="font-size: 18px;">
+        All podcast episodes, transcripts, and additional resources will be stored
+        in our online repository. This will allow listeners to revisit older episodes,
+        download content, and explore extra materials.
+      </p>
+</main> 
+  <footer>
+    <p>
+      <center><b>&copy; 2025 This Is Not A Podcast</b></center>
+    </p>
+  </footer>
+</body>
+
+</html>
