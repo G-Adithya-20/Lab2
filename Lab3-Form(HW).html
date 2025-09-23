@@ -1,0 +1,50 @@
+<!---Create a “Contact Us” webpage for a small local business. The page should contain a form where users can enter their name, email, phone number, subject, and a message. Use appropriate input types and attributes such as required, placeholder, maxlength, and pattern. Include HTML entities where needed, such as using © for copyright.
+The form should look like a real-world contact page and must be user-friendly. Make sure all fields are correctly labeled. --->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Contact Us</title>
+</head>
+<body>
+	<center><h2>Have questions?</h2>
+	<h2>Shoot us an e-mail</h2></center>
+	<center><img src="https://www.blogtyrant.com/wp-content/uploads/2019/12/best-contact-us-pages-2.png" style="width:20%"></center>
+
+	<form action="" method="POST" target="_blank">
+				<center>
+ 				<label>Name<span style="color: red;">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+ 				<input type="text" name="name" placeholder="Enter your name" pattern="[A-Za-z]{}-[A-Za-z]{}" maxlength="25" autofocus required>
+ 				<br><br>
+
+ 				<label>E-mail<span style="color: red;">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+ 				<input type="email" name="email" placeholder="youremail@eg.com" required>
+ 				<br><br>
+
+ 				<label>Phone no:<span style="color: red;">*</span>&nbsp;&nbsp;&nbsp;</label>
+ 				<input type="tel" name="phn" placeholder="98745 32678" pattern="[0-9]{5} [0-9]{5}" required>
+ 				<br><br>
+
+ 				<label>Subject<span style="color: red;">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+ 				<input type="text" name="sub" placeholder="Subject of your enquiry" maxlength="100" required>
+ 				<br><br>
+
+ 				<label>Message<span style="color: red;">*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+ 				<textarea name="msg" maxlength="500" required></textarea>
+ 				<br><br>
+ 				<br><br>
+ 				<input type="submit" name="submit">&nbsp;&nbsp;&nbsp;
+ 				<input type="reset" name="reset">
+ 				<br><br>
+ 				<br><br>
+ 				<br><br>
+ 			</center>
+ 			</form>
+ 	<div class="footer">
+        <center><p>&copy; 2025 Local Business. All rights reserved.</p></center>
+    </div>
+
+</body>
+</html>
