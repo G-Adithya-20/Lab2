@@ -1,0 +1,151 @@
+<!--Create a simple web page for a small café called “Bean & Brew”. The page should include:
+The café name as a main heading.
+
+A welcome paragraph with bold and italic words to highlight important phrases.
+A customer review quote displayed on the page.
+A div that contains three featured menu items. Use span to format the dish name in bold and the price in italics.
+A table that lists the café's open hours for three days.
+Add a YouTube video (e.g., a coffee-making demo) using an iframe.
+Use comments in your HTML code to explain the purpose of each section.
+In the head section, include a meta tag, a link tag to a CSS file (can be a placeholder)-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- Meta information about character encoding and responsiveness -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>
+           Bean & Brew
+        </title>
+
+         <!-- Placeholder for CSS -->
+    <link rel="stylesheet" href="style.css">
+        <style>
+            pre{
+                float: right;
+                }
+            aside {
+              float: center;
+              width:500px;
+              padding-left: 20px;
+              margin-left: 30px;
+              font-style: italic;
+              background-color: lightgray;
+            }
+            div {
+              border: 1px solid black;
+              padding: 25px; text-align: center; 
+              max-width: 700px; margin: 0 auto; /* Sets a 2px wide, solid, black border */
+}
+        </style>
+    </head>
+    <body>
+        <!-- Café Name -->
+        <h1><center><i>Bean & Brew</i></center></h1>
+        <br>
+
+          <!-- Café Image -->
+        <img src="https://i.pinimg.com/736x/b3/bf/49/b3bf49f8be9f22f746d390e884e66808.jpg" alt="Coffee-shop" width="700px" height="600px">
+        <pre style="font-size: 20px;">Welcome to <b><q>Bean & Brew</q></b>,where <i>every cup tells a story</i>.We believe
+great coffee starts with great beans,sourced ethically and roasted 
+with care to bring out their unique,rich flavors. Whether you're 
+seeking a perfectly crafted espresso to kickstart your morning, 
+a smooth cold brew to cool down your afternoon, or simply a warm,
+inviting space to unwind, we have a brew for you.Sink into a 
+comfortable chair, let the aroma of freshly ground coffee fill 
+your senses,and enjoy the perfect escape from the everyday hustle.
+        
+We’ve created a space where people can connect, create, or simply 
+unwind.The walls display artwork from local artists, and our shelves
+are filled with books for you to browse, adding a touch of community 
+spirit and creative inspiration. The soft lighting and rustic decor 
+invite you to stay a while, whether you’re working on a laptop, 
+meeting a friend, or enjoying a moment of quiet contemplation. Our 
+menu extends beyond coffee to include a curated selection of pastries
+ and snacks, each chosen to perfectly complement your beverage.
+At Bean & Brew, we've blended the art of coffee-making with the 
+comfort of a welcoming haven. Our friendly baristas are
+always happy to offer recommendations or just share a smile, 
+making you feel right at home. We’re committed to making your
+day better, one person and one cup at a time. 
+
+So come in, find your favorite spot, and become a part of our story.</pre>
+
+<!-- Customer Review Section -->
+<center>
+  <br>  
+<aside>
+<blockquote>
+   <br> 
+   <h2>Customer Review</h2>
+   <center><figure><img src="m.jpg" alt="Reviewer" width="150"><figcaption><mark>— Jessica M., Local Guide</mark></figcaption></figure></center>
+"Bean and Brew has quickly become my favorite spot in town! The atmosphere is warm and inviting, 
+and the staff are always so friendly. I tried the Caramel Cloud Latte and it was incredible – 
+perfectly balanced and not too sweet. The Sourdough Sunrise Sandwich is also a must-try – fresh, flavorful, and satisfying.
+ You can tell everything is made with care. Highly recommend for anyone looking for great coffee and cozy vibes!"
+
+</blockquote>
+<br>
+</aside>
+</center>
+<br>
+<br>
+<br>
+<br>
+ 
+   <!--Menu Items -->
+<div>
+    <center>
+    <h3><u>Signature Menu Items 🍽️:</u></h3>
+    <span style="font-weight: bold;">B&B Caramel Cloud Latte ☕ - </span><span style="font-style: italic;">$90</span> 
+    <br>
+    <i>A velvety smooth latte infused with rich caramel, topped with a cloud of frothy cream, and finished with a golden 
+    drizzle for the perfect balance of sweetness and comfort.</i>
+    <br><br>
+    <span style="font-weight: bold;">Sourdough Sunrise Sandwich 🥪 - </span><span style="font-style: italic;">$70</span>
+    <br>
+    <i>A hearty breakfast favorite stacked with fresh ingredients and served on warm, crusty sourdough bread – the perfect 
+    way to start your morning with flavor and energy.</i>
+    <br><br>
+    <span style="font-weight: bold;">Espresso Brownie Bliss 🍫 - </span><span style="font-style: italic;">$50</span> 
+    <br>
+    <i>A decadent brownie infused with bold espresso, combining fudgy richness with a shot of coffee goodness for the 
+    ultimate treat to fuel your day.</i>
+    </center>
+</div> 
+
+ <!-- YouTube Coffee-Making Demo -->
+<br> <br>
+<center>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/_bNbada12iM?si=Tq99Pc12bx0xQQ0i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ </center>  
+<br>
+<br>
+<center>
+<h2><u>Open hours</u></h2>
+<table border="1" style="width: 600px;text-align: center;">
+     <tr>
+        <th>Day</th>
+        <th>Opening time</th>
+        <th>Closing time</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>11:00 am</td>
+        <td>11:00 pm</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>1:00 am </td>
+        <td>12:00 pm</td>
+    </tr>
+     <tr>
+        <td>Friday</td>
+        <td>12:00 pm </td>
+        <td>2:00 pm</td>
+    </tr>
+ </table>
+  </center>
+ </body>
+</html>
