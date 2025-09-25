@@ -1,0 +1,172 @@
+<!-- Create a simple web page for a fictional bookstore called "Readers' Paradise". The page should include:
+The store name as the main heading.
+
+1.A short welcome paragraph using bold and italic formatting to highlight key phrases.
+2.A quote from a famous author that inspires readers.
+3.A section using div and span to display three featured books. Each book should have:
+   A title in bold
+   The author's name in italics
+   A short description
+4.A table listing 3 book categories with their price range and availability.
+5.A comment before each section explaining its purpose.
+6.At least one meta tag, one script tag, and one link tag in the .
+7.At the bottom of the page, add an iframe that displays a YouTube video book trailer or reading session. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tag for character encoding and viewport -->
+    <meta charset="utf-8">
+    <meta name="viewport" name="width=device-width,initial-scale=1">
+    <title>
+        Reader's Paradise
+    </title>
+    <!-- Link tag placeholder -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: white;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        p {
+            color: white;
+        }
+
+        blockquote {
+            color: white;
+        }
+
+        div {
+            color: white;
+        }
+
+        table {
+            color: white;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <h1>
+        <center><i>Reader's Paradise</i></center>
+    </h1>
+    <center>
+        <img src="https://i.etsystatic.com/16895790/r/il/a289d9/4841007885/il_1080xN.4841007885_potp.jpg" alt="bookshop"
+            width="800">
+    </center>
+    <!-- Welcome Paragraph -->
+    <p style="font-size: 20px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to
+        <b>Reader's Paradise</b>, <i>your cozy corner for imagination and discovery</i>. From
+        timeless classics to the latest bestsellers, our shelves are filled with stories that inspire, entertain, and
+        transport you to new worlds. Whether you’re a lifelong book lover or just beginning your reading journey, you’ll
+        find something here to spark your curiosity.
+    </p>
+    <p style="font-size: 20px;"> We believe a bookstore should be more than just a place to buy books – it’s a community
+        where readers connect,ideas flourish, and stories are shared. So take your time, wander through the aisles, and
+        lose yourself in the
+        magic of words. At Readers’ Paradise, every visit is the beginning of a new adventure.
+        Our store also features a cozy reading nook where you can sip coffee, relax, and immerse yourself in the pages
+        of your favorite book. We regularly host book signings, storytelling sessions, and literary discussions to bring
+        together readers and authors. Whether you’re looking for academic resources, children’s tales, or the perfect
+        gift for a fellow bookworm, our friendly staff is always ready to help you find it.
+        At Reader's Paradise, we celebrate the joy of reading, one story at a time.</p>
+
+    <br>
+
+    <!-- Inspirational Quote -->
+    <center>
+        <blockquote style="font-size: 25px;"><q>A reader lives a thousand lives before he dies.The man who never reads
+                lives only
+                one.</q><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;<mark>—George R.R. Martin</mark></blockquote>
+    </center>
+    <br>
+
+    <!-- Featured Books -->
+    <h1>
+        <i><u>Feautred Books</u></i>
+    </h1>
+    <ol>
+        <div id="d1" style="font-size: 20px;">
+            <li>Book - <span style="font-weight: bold;">A good girl's guide to murder</span><br>
+                Author - <span style="font-style: italic;">Holly Jackson</span><br>
+                Summary - Pretty and popular high school senior Andie Bell was murdered by her boyfriend, Sal Singh, who
+                then killed
+                himself. It was all anyone could talk about.And five years later, Pip sees how the tragedy still haunts
+                her
+                town. But she can't shake the feeling that there was more to what happened that day.</li>
+        </div>
+        <br>
+        <div id="d2" style="font-size: 20px;">
+            <li>Book - <span style="font-weight: bold;">I too had a love story</span><br>
+                Author - <span style="font-style: italic;">Ravinder Singh</span><br>
+                Summary - The book tells the heartfelt story of Ravin and Khushi, who meet online and fall in love, only
+                to face a significant challenge before their engagement. It explores themes of love, destiny, and loss,
+                and became a bestseller in India for many years.</li>
+        </div>
+        <br>
+        <div id="d3" style="font-size: 20px;">
+            <li>Book - <span style="font-weight: bold;">2 States</span><br>
+                Author - <span style="font-style: italic;">Chethan Bhagath</span><br>
+                Summary - It is the story about a couple coming from two states in India, who face hardships in
+                convincing their parents to approve of their marriage. Bhagat wrote this novel after quitting his job as
+                an investment banker.</li>
+        </div>
+    </ol>
+    <br><br>
+
+    <!-- Book Categories Table -->
+    
+        <h2><u>Avaliable Book Categories</u></h2>
+        <table border="1" style="width:750px; text-align:center;font-size:18px;">
+            <tr>
+                <th>Category</th>
+                <th>Price Range</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>Fiction</td>
+                <td>$10 – $40</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Children’s Books</td>
+                <td>$5 – $25</td>
+                <td>Limited Stock</td>
+            </tr>
+            <tr>
+                <td>Non-Fiction</td>
+                <td>$15 – $50</td>
+                <td>In Stock</td>
+            </tr>
+        </table>
+    
+    <br><br>
+
+    <!-- YouTube Video -->
+    <center>
+        <h2><u>Book Trailer</u></h2>
+        
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/X_MQZo6gyLE?si=OUCdW7axMUtw3boy"
+                title="Book Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+                <figcaption> SECRET OF SECRETS by Dan Brown | Book Trailer</figcaption>
+            
+        
+    </center>
+
+</body>
+
+</html>
